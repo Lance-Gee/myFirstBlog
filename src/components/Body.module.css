@@ -1,0 +1,37 @@
+.indent {
+  margin-left: 50px;
+}
+
+.image {
+  width: 1000px;
+}
+
+.image2 {
+  width: 300px;
+  margin-left: 150px;
+}
+
+.blockQuotes {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+.blockQuote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+.blockQuote p {
+  display: inline;
+}
+
+.demo {
+  width: 800px;
+  font-family: "Fira Code", monospace;
+}

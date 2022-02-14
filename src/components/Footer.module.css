@@ -1,0 +1,92 @@
+.blue {
+  height: 125px;
+  text-align: center;
+  color: white;
+  background-color: rgb(105, 105, 235, 0.5);
+}
+
+.gray {
+  height: 125px;
+  text-align: center;
+  color: white;
+  background-color: rgb(105, 105, 105, 0.5);
+}
+
+.pink {
+  height: 125px;
+  text-align: center;
+  color: white;
+  background-color: rgb(255, 129, 228, 0.5);
+}
+
+.green {
+  height: 125px;
+  text-align: center;
+  color: white;
+  background-color: rgb(110, 255, 170, 0.5);
+}
+
+.red {
+  height: 125px;
+  text-align: center;
+  color: white;
+  background-color: rgb(248, 121, 121, 0.5);
+}
+
+.yellow {
+  height: 125px;
+  text-align: center;
+  color: white;
+  background-color: rgb(255, 253, 110, 0.5);
+}
+
+.brown {
+  height: 125px;
+  text-align: center;
+  color: white;
+  background-color: rgb(141, 111, 56, 0.5);
+}
+
+.purple {
+  height: 125px;
+  text-align: center;
+  color: white;
+  background-color: rgb(199, 131, 255, 0.5);
+}
+
+.orange {
+  height: 125px;
+  text-align: center;
+  color: white;
+  background-color: rgb(248, 194, 94, 0.5);
+}
+
+.grBlue {
+  height: 125px;
+  text-align: center;
+  color: white;
+  background-color: rgb(113, 242, 247, 0.5);
+}
+
+.white {
+  height: 125px;
+  text-align: center;
+  color: white;
+  background-color: rgb(255, 255, 255);
+}
+
+.letter {
+  font-size: 50px;
+  color: rgb(61, 61, 61);
+  text-align: center;
+}
+
+.container {
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+.icons {
+  margin-top: 25px;
+  color: #30c8dd;
+}
