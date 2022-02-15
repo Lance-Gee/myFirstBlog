@@ -109,6 +109,12 @@ function Header() {
                 </div>
                 <br />
                 <p style={{ fontSize: ".8em" }}>Posted on February 18, 2022</p>
+                <p style={{ fontSize: ".8em", marginTop: "-15px" }}>
+                  Audience: Beginner
+                </p>
+                <p style={{ fontSize: ".8em", marginTop: "-15px" }}>
+                  15min Read
+                </p>
               </Col>
             </Row>
           </Col>
