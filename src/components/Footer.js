@@ -5,6 +5,29 @@ import classes from "./Footer.module.css";
 function Footer() {
   return (
     <div className={classes.container}>
+      <Row className="pb-3">
+        <Col>
+          <h6>Photo References:</h6>
+          <p>
+            Header Photo by{" "}
+            <a href="https://unsplash.com/@sebastiansvenson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+              Sebastian Svenson
+            </a>{" "}
+            on{" "}
+            <a href="https://unsplash.com/s/photos/minimalisitc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+              Unsplash
+            </a>
+          </p>
+          React Photo by{" "}
+          <a href="https://unsplash.com/@lautaroandreani?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+            Lautaro Andreani
+          </a>{" "}
+          on{" "}
+          <a href="https://unsplash.com/s/photos/react-library?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+            Unsplash
+          </a>
+        </Col>
+      </Row>
       <Row>
         <Col className={classes.blue}>
           <p className={classes.letter}>R</p>
