@@ -4,6 +4,7 @@ import headerImage from "../images/header.jpg";
 import reactImage from "../images/reactMainPhoto.jpg";
 import classes from "./Header.module.css";
 import avatar from "../images/LSG.png";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -42,7 +43,7 @@ function Header() {
                   alt="profile picture"
                 />
               </Col>
-              <Col md={10}>
+              <Col md={7}>
                 <h6>Author: Lance Gee</h6>
                 <p style={{ fontSize: ".8em" }}>
                   Lance is attending SAIT - Southern Alberta Institute of
@@ -115,6 +116,13 @@ function Header() {
                 <p style={{ fontSize: ".8em", marginTop: "-15px" }}>
                   15min Read
                 </p>
+              </Col>
+              <Col style={{ borderLeft: "solid" }}>
+                <h5>Blogs</h5>
+                <Link to="/">Blog 1 - My First Blog</Link>
+                <br />
+                <br />
+                <Link to="/blog2">Blog 2 - Create Simple React App</Link>
               </Col>
             </Row>
           </Col>
