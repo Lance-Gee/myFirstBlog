@@ -2,8 +2,9 @@ import React from "react";
 import classes from "./Body.module.css";
 import bakeryImage from "../images/Picture1.png";
 import authorImage from "../images/Picture2.png";
-import { Code, CopyBlock, irBlack } from "react-code-blocks";
+import { CopyBlock, irBlack } from "react-code-blocks";
 import { Col, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function Body() {
   function MyCodeComponent(props) {
@@ -711,12 +712,12 @@ function OrderForm() {
       <br />
       <Row>
         <Col md={{ span: 4, offset: 8 }} style={{ textAlign: "right" }}>
-          <a href="">
+          <Link to="/blog2">
             <h5>
               NEXT <span>&#62;</span>
             </h5>
             <h6 style={{ color: "red" }}>Tutorial: Create A React App</h6>
-          </a>
+          </Link>
         </Col>
       </Row>
       <br />

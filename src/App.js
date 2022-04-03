@@ -1,22 +1,20 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useEffect } from "react";
-import { Container } from "react-bootstrap";
-import Body from "./components/Body";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Blog1 from "./pages/Blog1";
+import Blog2 from "./pages/Blog2";
 
 function App() {
   useEffect(() => {
-    document.title = "MyFirstBlog";
+    document.title = "My Blogs";
   }, []);
   return (
-    <div>
-      <Header />
-      <Container>
-        <Body />
-      </Container>
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Blog1 />}></Route>
+        <Route path="/blog2" element={<Blog2 />}></Route>
+      </Routes>
+    </Router>
   );
 }
 
