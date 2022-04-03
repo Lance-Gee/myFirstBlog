@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d1be0fe2.css",
-    "main.js": "/static/js/main.cf603d97.js",
+    "main.css": "/static/css/main.565e03ac.css",
+    "main.js": "/static/js/main.89d30634.js",
     "react-syntax-highlighter/refractor-core-import.js": "/static/js/react-syntax-highlighter/refractor-core-import.b7a3a72c.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js": "/static/js/react-syntax-highlighter_languages_refractor_abap.7dcf6e7d.chunk.js",
     "react-syntax-highlighter_languages_refractor_actionscript.js": "/static/js/react-syntax-highlighter_languages_refractor_actionscript.2862f791.chunk.js",
@@ -155,13 +155,23 @@
     "react-syntax-highlighter_languages_refractor_xquery.js": "/static/js/react-syntax-highlighter_languages_refractor_xquery.daac87c7.chunk.js",
     "react-syntax-highlighter_languages_refractor_yaml.js": "/static/js/react-syntax-highlighter_languages_refractor_yaml.1d325bfc.chunk.js",
     "static/media/Picture1.png": "/static/media/Picture1.f7840d4fb13787ce7e9e.png",
+    "static/media/header2.jpg": "/static/media/header2.a4557d91c6c4e7d8cdc5.jpg",
     "static/media/reactMainPhoto.jpg": "/static/media/reactMainPhoto.ac03c44d0e8b86203453.jpg",
+    "static/media/mainImage2.jpg": "/static/media/mainImage2.9cd1cc9fde5c1e32dc51.jpg",
+    "static/media/react_startup_terminal.png": "/static/media/react_startup_terminal.829b58f6914a1cc8179d.png",
+    "static/media/VS_terminal.png": "/static/media/VS_terminal.e1ffad6b80d6a2bcc2cc.png",
+    "static/media/React_install.png": "/static/media/React_install.6a9a630193c5c035e9fc.png",
     "static/media/Picture2.png": "/static/media/Picture2.067d78ffe699f434d526.png",
+    "static/media/appjs.png": "/static/media/appjs.c06d279fdb9e6c411ffb.png",
+    "static/media/browser_startup.png": "/static/media/browser_startup.c392db8b51db40dc5666.png",
     "static/media/header.jpg": "/static/media/header.530c23318db9690fe9f2.jpg",
+    "static/media/explorer.png": "/static/media/explorer.ebe43d358aa98ec8adcf.png",
     "static/media/LSG.png": "/static/media/LSG.8a8a6890f8d5edf1b872.png",
+    "static/media/appjs_modified.png": "/static/media/appjs_modified.1f905853b082723b65b7.png",
+    "static/media/whatAppWillLookLike.png": "/static/media/whatAppWillLookLike.b38d5730ed84c40f7f55.png",
     "index.html": "/index.html",
-    "main.d1be0fe2.css.map": "/static/css/main.d1be0fe2.css.map",
-    "main.cf603d97.js.map": "/static/js/main.cf603d97.js.map",
+    "main.565e03ac.css.map": "/static/css/main.565e03ac.css.map",
+    "main.89d30634.js.map": "/static/js/main.89d30634.js.map",
     "refractor-core-import.b7a3a72c.chunk.js.map": "/static/js/react-syntax-highlighter/refractor-core-import.b7a3a72c.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abap.7dcf6e7d.chunk.js.map": "/static/js/react-syntax-highlighter_languages_refractor_abap.7dcf6e7d.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_actionscript.2862f791.chunk.js.map": "/static/js/react-syntax-highlighter_languages_refractor_actionscript.2862f791.chunk.js.map",
@@ -316,7 +326,7 @@
     "react-syntax-highlighter_languages_refractor_yaml.1d325bfc.chunk.js.map": "/static/js/react-syntax-highlighter_languages_refractor_yaml.1d325bfc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1be0fe2.css",
-    "static/js/main.cf603d97.js"
+    "static/css/main.565e03ac.css",
+    "static/js/main.89d30634.js"
   ]
 }
