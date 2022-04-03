@@ -50,7 +50,7 @@ function Blog2Body() {
       <br />
       <div className="text-center">
         <h3>Watch The Tutorial Here.</h3>
-        <YouTubeEmbed embedId="QXEfLIL_BaU" />
+        <YouTubeEmbed embedId="7HmoQoCCwek" />
       </div>
       <br />
       <br />
