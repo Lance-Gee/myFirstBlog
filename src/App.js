@@ -11,8 +11,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Blog1 />}></Route>
-        <Route path="/blog2" element={<Blog2 />}></Route>
+        <Route path="/lancegee.com" element={<Blog1 />}></Route>
+        <Route path="/lancegee.com/blog2" element={<Blog2 />}></Route>
       </Routes>
     </Router>
   );
