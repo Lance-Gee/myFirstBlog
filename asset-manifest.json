@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myFirstBlog/static/css/main.d1be0fe2.css",
-    "main.js": "/myFirstBlog/static/js/main.a5f170b6.js",
+    "main.js": "/myFirstBlog/static/js/main.b3a28e8c.js",
     "react-syntax-highlighter/refractor-core-import.js": "/myFirstBlog/static/js/react-syntax-highlighter/refractor-core-import.b7a3a72c.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js": "/myFirstBlog/static/js/react-syntax-highlighter_languages_refractor_abap.7dcf6e7d.chunk.js",
     "react-syntax-highlighter_languages_refractor_actionscript.js": "/myFirstBlog/static/js/react-syntax-highlighter_languages_refractor_actionscript.2862f791.chunk.js",
@@ -171,7 +171,7 @@
     "static/media/whatAppWillLookLike.png": "/myFirstBlog/static/media/whatAppWillLookLike.b38d5730ed84c40f7f55.png",
     "index.html": "/myFirstBlog/index.html",
     "main.d1be0fe2.css.map": "/myFirstBlog/static/css/main.d1be0fe2.css.map",
-    "main.a5f170b6.js.map": "/myFirstBlog/static/js/main.a5f170b6.js.map",
+    "main.b3a28e8c.js.map": "/myFirstBlog/static/js/main.b3a28e8c.js.map",
     "refractor-core-import.b7a3a72c.chunk.js.map": "/myFirstBlog/static/js/react-syntax-highlighter/refractor-core-import.b7a3a72c.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abap.7dcf6e7d.chunk.js.map": "/myFirstBlog/static/js/react-syntax-highlighter_languages_refractor_abap.7dcf6e7d.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_actionscript.2862f791.chunk.js.map": "/myFirstBlog/static/js/react-syntax-highlighter_languages_refractor_actionscript.2862f791.chunk.js.map",
@@ -327,6 +327,6 @@
   },
   "entrypoints": [
     "static/css/main.d1be0fe2.css",
-    "static/js/main.a5f170b6.js"
+    "static/js/main.b3a28e8c.js"
   ]
 }
