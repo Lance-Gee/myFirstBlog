@@ -1,6 +1,6 @@
-import React from "react";
-import { Col, Row } from "react-bootstrap";
-import classes from "./Footer.module.css";
+import React from 'react';
+import { Col, Row } from 'react-bootstrap';
+import classes from './Footer.module.css';
 
 function Footer() {
   return (
@@ -9,21 +9,37 @@ function Footer() {
         <Col>
           <h6>Photo References:</h6>
           <p>
-            Header Photo by{" "}
-            <a href="https://unsplash.com/@sebastiansvenson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+            Header Photo by{' '}
+            <a
+              href="https://unsplash.com/@sebastiansvenson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              rel="noreferrer"
+              target="_blank"
+            >
               Sebastian Svenson
-            </a>{" "}
-            on{" "}
-            <a href="https://unsplash.com/s/photos/minimalisitc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+            </a>{' '}
+            on{' '}
+            <a
+              href="https://unsplash.com/s/photos/minimalisitc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              rel="noreferrer"
+              target="_blank"
+            >
               Unsplash
             </a>
           </p>
-          React Photo by{" "}
-          <a href="https://unsplash.com/@lautaroandreani?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+          React Photo by{' '}
+          <a
+            href="https://unsplash.com/@lautaroandreani?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            rel="noreferrer"
+            target="_blank"
+          >
             Lautaro Andreani
-          </a>{" "}
-          on{" "}
-          <a href="https://unsplash.com/s/photos/react-library?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+          </a>{' '}
+          on{' '}
+          <a
+            href="https://unsplash.com/s/photos/react-library?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            rel="noreferrer"
+            target="_blank"
+          >
             Unsplash
           </a>
         </Col>
@@ -46,7 +62,11 @@ function Footer() {
         </Col>
         <Col className={classes.white}>
           <div>
-            <a href="https://www.linkedin.com/in/LanceGee" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/LanceGee"
+              target="_blank"
+              rel="noreferrer"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="45"
@@ -63,7 +83,11 @@ function Footer() {
         </Col>
         <Col className={classes.white}>
           <div>
-            <a href="https://www.github.com/Lance-Gee" target="_blank">
+            <a
+              href="https://www.github.com/Lance-Gee"
+              target="_blank"
+              rel="noreferrer"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="45"
@@ -80,7 +104,11 @@ function Footer() {
         </Col>
         <Col className={classes.white}>
           <div>
-            <a href="mailto: lancegee.apps@gmail.com" target="_blank">
+            <a
+              href="mailto: lancegee.apps@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="45"

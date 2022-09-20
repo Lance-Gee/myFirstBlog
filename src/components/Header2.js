@@ -1,10 +1,10 @@
-import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import headerImage from "../images/blog2/header2.jpg";
-import reactImage from "../images/blog2/mainImage2.jpg";
-import classes from "./Header.module.css";
-import avatar from "../images/LSG.png";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import headerImage from '../images/blog2/header2.jpg';
+import reactImage from '../images/blog2/mainImage2.jpg';
+import classes from './Header.module.css';
+import avatar from '../images/LSG.png';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -13,10 +13,10 @@ function Header() {
         style={{
           // Photo by <a href="https://unsplash.com/@sebastiansvenson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sebastian Svenson</a> on <a href="https://unsplash.com/s/photos/minimalisitc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
           backgroundImage: `url(${headerImage})`,
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          height: "300px",
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover',
+          height: '300px',
         }}
       >
         <Col className={classes.font}>
@@ -28,24 +28,16 @@ function Header() {
         <Row className="align-items-center">
           <Col>
             {/* Photo by <a href="https://unsplash.com/@lautaroandreani?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lautaro Andreani</a> on <a href="https://unsplash.com/s/photos/react-library?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */}
-            <img
-              className={classes.reactPhoto}
-              src={reactImage}
-              alt="React Photo"
-            />
+            <img className={classes.reactPhoto} src={reactImage} alt="React" />
           </Col>
           <Col>
             <Row>
               <Col md={1}>
-                <img
-                  className={classes.avatar}
-                  src={avatar}
-                  alt="profile picture"
-                />
+                <img className={classes.avatar} src={avatar} alt="profile" />
               </Col>
               <Col md={7}>
                 <h6>Author: Lance Gee</h6>
-                <p style={{ fontSize: ".8em" }}>
+                <p style={{ fontSize: '.8em' }}>
                   Lance is attending SAIT - Southern Alberta Institute of
                   Technology. He is in his 4th Semester as a Software Developer.
                   He enjoys playing around with new technology and loves to
@@ -65,6 +57,7 @@ function Header() {
                 <a
                   href="mailto: lancegee.apps@gmail.com"
                   target="_blank"
+                  rel="noreferrer"
                   className={classes.contact}
                 >
                   LanceGee.Apps@gmail.com
@@ -85,6 +78,7 @@ function Header() {
                     href="https://www.github.com/Lance-Gee"
                     className={classes.contact}
                     target="_blank"
+                    rel="noreferrer"
                   >
                     github.com/Lance-Gee
                   </a>
@@ -109,15 +103,15 @@ function Header() {
                   </a>
                 </div>
                 <br />
-                <p style={{ fontSize: ".8em" }}>Posted on April 2, 2022</p>
-                <p style={{ fontSize: ".8em", marginTop: "-15px" }}>
+                <p style={{ fontSize: '.8em' }}>Posted on April 2, 2022</p>
+                <p style={{ fontSize: '.8em', marginTop: '-15px' }}>
                   Audience: Beginner
                 </p>
-                <p style={{ fontSize: ".8em", marginTop: "-15px" }}>
+                <p style={{ fontSize: '.8em', marginTop: '-15px' }}>
                   15min Read
                 </p>
               </Col>
-              <Col style={{ borderLeft: "solid" }}>
+              <Col style={{ borderLeft: 'solid' }}>
                 <h5>Blogs</h5>
                 <Link to="/">Blog 1 - My First Blog</Link>
                 <br />

@@ -1,6 +1,6 @@
-import React from "react";
-import { Col, Row } from "react-bootstrap";
-import classes from "./Footer.module.css";
+import React from 'react';
+import { Col, Row } from 'react-bootstrap';
+import classes from './Footer.module.css';
 
 function Footer() {
   return (
@@ -9,20 +9,20 @@ function Footer() {
         <Col>
           <h6>Photo References:</h6>
           <p>
-            Header Photo by{" "}
+            Header Photo by{' '}
             <a href="https://unsplash.com/@heeybooy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
               Ruan Richard
-            </a>{" "}
-            on{" "}
+            </a>{' '}
+            on{' '}
             <a href="https://unsplash.com/s/photos/abstract-background?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
               Unsplash
             </a>
             <br />
-            Main Photo by{" "}
+            Main Photo by{' '}
             <a href="https://unsplash.com/@juanjodev02?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
               Juanjo Jaramillo
-            </a>{" "}
-            on{" "}
+            </a>{' '}
+            on{' '}
             <a href="https://unsplash.com/s/photos/programming?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
               Unsplash
             </a>
@@ -47,7 +47,11 @@ function Footer() {
         </Col>
         <Col className={classes.white}>
           <div>
-            <a href="https://www.linkedin.com/in/LanceGee" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/LanceGee"
+              target="_blank"
+              rel="noreferrer"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="45"
@@ -64,7 +68,11 @@ function Footer() {
         </Col>
         <Col className={classes.white}>
           <div>
-            <a href="https://www.github.com/Lance-Gee" target="_blank">
+            <a
+              href="https://www.github.com/Lance-Gee"
+              target="_blank"
+              rel="noreferrer"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="45"
@@ -81,7 +89,11 @@ function Footer() {
         </Col>
         <Col className={classes.white}>
           <div>
-            <a href="mailto: lancegee.apps@gmail.com" target="_blank">
+            <a
+              href="mailto: lancegee.apps@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="45"
