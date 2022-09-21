@@ -12,7 +12,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/myFirstBlog" element={<Blog1 />}></Route>
-        <Route path="/blog2" element={<Blog2 />}></Route>
+        <Route path="/myFirstBlog/blog2" element={<Blog2 />}></Route>
       </Routes>
     </Router>
   );

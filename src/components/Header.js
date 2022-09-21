@@ -113,10 +113,12 @@ function Header() {
               </Col>
               <Col style={{ borderLeft: 'solid' }}>
                 <h5>Blogs</h5>
-                <Link to="/">Blog 1 - My First Blog</Link>
+                <Link to="/myFirstBlog">Blog 1 - My First Blog</Link>
                 <br />
                 <br />
-                <Link to="/blog2">Blog 2 - Create Simple React App</Link>
+                <Link to="/myFirstBlog/blog2">
+                  Blog 2 - Create Simple React App
+                </Link>
               </Col>
             </Row>
           </Col>
